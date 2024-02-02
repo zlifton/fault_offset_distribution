@@ -7,4 +7,4 @@ The first python script is `linear_interpolation_main_branch.py`. This script re
 
 The second python script is `moving_average_padded_branches.py`. This script takes the output from the first script as input and performs a moving average. The window size can be adjusted. This scrip also does a simple padding to the data so that the average extends all the way to the end. It still needs some adjustments to make the beginning of the moving average more accurate - it currently started at zero because the left side of the data is not padded. The output is a datafile `moving_average_data_main_branch.txt`. It also plots a figure with the original data points with error bars (colored by age) and moving average.
 
-This is still a work in progress and I will update as i ake changes.
+This is still a work in progress and I will update as I make changes.
